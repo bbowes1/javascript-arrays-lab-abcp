@@ -12,3 +12,4 @@ function destructivelyAppendKitten(name){
  function destructivelyRemoveFirstKitten(){
    return kittens.shift(name);
  }
+ function 
