@@ -13,6 +13,6 @@ function destructivelyAppendKitten(name){
    return kittens.shift(name);
  }
  function appendKitten(name){
-   
+   return [Kittens, ...name];
  }
  
